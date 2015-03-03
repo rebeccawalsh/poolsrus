@@ -80,6 +80,27 @@
 .mainorbit img {
   width: 100%;
   height: auto;
+  margin-top: 0px;
+}
+
+.logo {
+	margin-bottom: -40px;
+
+}
+.top-bar input { height: 45px; }
+
+.specialtitle {
+	padding-top: 20px;
+}
+.specials {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+.specialsexpire {
+	font-size: 12px;
+	text-align: center;
 }
 
 .orbit-bullets {
@@ -98,8 +119,33 @@
   font-color: white;
 }
 
-h4 {
+.dark {
 	color:white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.darkhead {
+	color:white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: -5px;
+	padding-top: 25px;
+}
+
+.darklist {
+	color:white;
+}
+
+.darkcopy {
+	text-align: center;
+	color:grey;
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 4px;
 }
 
 blockquote {
