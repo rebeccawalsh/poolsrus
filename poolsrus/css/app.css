@@ -136,7 +136,23 @@
 	padding-top: 25px;
 }
 
+.darkhead2 {
+	color:white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 0px;
+	padding-top: 5px;
+}
 .darklist {
+	color:white;
+}
+
+.white {
+	color:white;
+}
+
+.whitehead {
 	color:white;
 }
 
@@ -150,7 +166,7 @@
 
 blockquote {
 font-family: Georgia, serif;
-font-size: 18px;
+font-size: 16px;
 font-style: italic;
 width: 500px;
 margin: 0.25em 0;
