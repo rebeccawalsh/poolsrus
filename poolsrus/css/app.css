@@ -1,3 +1,14 @@
+@font-face {
+font-family: 'Avenir Next LT Pro Demi Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Demi Condensed'), url('AvenirNextLTPro-DemiCn.woff') format('woff');
+}
+
+.body h1 {
+	font-family: "AvenirNextLTPro-DemiCn";
+}
+
 .fullWidth {
 	width: 100%;
 	margin-left: auto;
@@ -14,6 +25,10 @@
 	background-size: fixed;
 }
 
+.kid {
+	background-image: url('img/kid.jpg');
+	background-position: #333333;
+}
 .logo {
 	margin-top: 15px;
 }
@@ -165,7 +180,9 @@
 }
 
 .sidenav {
+	   border-right: 1px solid;
 }
+
 blockquote {
 font-family: Georgia, serif;
 font-size: 16px;
