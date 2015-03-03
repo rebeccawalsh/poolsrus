@@ -76,3 +76,28 @@
 	color:gray;
 	font-size: 12px;
 }
+
+.mainorbit img {
+  width: 100%;
+  height: auto;
+}
+
+.orbit-bullets {
+    display: table;
+    text-align: center;
+    top: -36px;
+}
+
+.servicerow {
+	padding-top: 20px;
+}
+
+.container .full-width {
+  width: 100%;
+  max-width: 100%; 
+  font-color: white;
+}
+
+h4 {
+	color:white;
+}
