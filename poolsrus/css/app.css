@@ -1,0 +1,78 @@
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+
+.headerimg {
+	height: 120px;
+	width: 100%;
+	margin-top: -3px;
+	background-color: #777777;
+	background-image: url("http://i.imgur.com/DzFPpOK.jpg");
+	background-size: fixed;
+}
+
+.logo {
+	margin-top: 15px;
+}
+
+.columns {
+	max-width: 1000px;
+}
+
+#seal {
+	max-width: 175px;
+}
+
+.footer {
+	max-width: 1000px;
+}
+
+.wrap {
+	padding-top: 15px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	background-color: #333333;
+	min-height: 350px;
+}
+
+.wrap2 {
+	padding-top: 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	background-color: #333333;
+	height: 30px;
+	margin-bottom: -15px;
+}
+
+#contact_form {
+	max-height: 280px;
+}
+
+.footer li {
+	font-color: #555555;
+	font-size: 13px;
+	color: white
+}
+.footer h5 {
+	font-color: #555555;
+	font-size: 16px;
+	color: white;
+	margin-left: 40px;
+}
+
+.signright {
+	padding-top: 15px;
+	font-size: 13px;
+}
+
+.copyright p {
+	color:gray;
+	font-size: 12px;
+}
