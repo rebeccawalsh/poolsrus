@@ -9,9 +9,6 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -23,12 +20,14 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #331d35;
   background-color: #e7e7e7;
+
 }
 
 a {
   color: #41307c;
   text-decoration: none;
 }
+
 
 /* -------------------------------- 
 
