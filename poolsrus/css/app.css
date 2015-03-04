@@ -25,10 +25,14 @@ src: local('Avenir Next LT Pro Demi Condensed'), url('AvenirNextLTPro-DemiCn.wof
 	background-size: fixed;
 }
 
-.kid {
-	background-image: url('img/kid.jpg');
-	background-position: #333333;
+.wrapperkid {
+	width:100%;
+    background: url("http://i.imgur.com/OiWRrNo.jpg") no-repeat center;   
 }
+
+.whitebox {
+     background-color: rgba(255, 255, 255, 0.8); }
+
 .logo {
 	margin-top: 15px;
 }
