@@ -16,6 +16,10 @@ src: local('Avenir Next LT Pro Demi Condensed'), url('AvenirNextLTPro-DemiCn.wof
 	max-width: initial;
 }
 
+h1 {
+	font-size: 30px;
+}
+
 .headerimg {
 	height: 120px;
 	width: 100%;
