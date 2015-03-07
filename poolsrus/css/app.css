@@ -1,13 +1,24 @@
-@font-face {
-font-family: 'Avenir Next LT Pro Demi Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Avenir Next LT Pro Demi Condensed'), url('AvenirNextLTPro-DemiCn.woff') format('woff');
+.body {
+	 font-size: 13px;
+	 font-family: "Fjalla One";
+	 font-style: normal;
+	 font-weight: 400;
+	}
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 15px #000000;
+   -webkit-box-shadow: inset 0 0 15px #000000;
+   box-shadow:                 
+   		inset 0px 16px 14px -16px #222222,
+        inset 0px -16px 14px -16px #222222; 
 }
 
-.body h1 {
-	font-family: "AvenirNextLTPro-DemiCn";
+.logo
+{
+  position: relative; /* this is to make z-index work, just make sure it isn't static */
+  z-index: 99; /* this number has to be higher than the topbar */
 }
+
 
 .fullWidth {
 	width: 100%;
@@ -31,11 +42,11 @@ h1 {
 
 .wrapperkid {
 	width:100%;
-    background: url("http://i.imgur.com/OiWRrNo.jpg") no-repeat center;   
+    background: url("http://i.imgur.com/ACsfUYS.jpg") no-repeat center ;   
 }
 
 .whitebox {
-     background-color: rgba(255, 255, 255, 0.8); }
+     background-color: rgba(255, 255, 255, 0.7); }
 
 .logo {
 	margin-top: 15px;
