@@ -16,8 +16,8 @@ html * {
 }
 
 body {
+  font-family: 'Bree Serif', serif;
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
   color: #331d35;
   background-color: #e7e7e7;
 
