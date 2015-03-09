@@ -1,3 +1,3 @@
-$topbar-link-color-hover: $white;
-$topbar-link-color-active: $white;
-$topbar-link-color-active-hover: $white;
+$topbar-link-color-hover: $grey;
+$topbar-link-color-active: $grey;
+$topbar-link-color-active-hover: $grey;

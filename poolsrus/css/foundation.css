@@ -1683,7 +1683,7 @@ label.error {
   color: #f04124; }
 
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
+  font-family: 'Michroma', sans-serif "/only screen and (min-width:40.063em)/";
   width: 40.063em; }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -2069,7 +2069,7 @@ meta.foundation-mq-topbar {
         background: #0078a0;
         color: #FFFFFF; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 2.1875rem !important; }
+      padding-right: 16px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
