@@ -677,20 +677,22 @@ xcustom form elements
 }
 .caption h3, .caption p {
 	font-family: "Open Sans", sans-serif;
-	text-align: left;
+	text-align: center;
 	color: #fff;
 	margin: 20px;
 }
 
 .caption p {
 	font-family: "Open Sans", sans-serif;
-	text-align: center;
+	
 	font-size: .75em;
 	line-height: 1.5em;
 	margin: 0 20px 15px;
 }
 
-
+.caption h3 {
+	border: 2.5px solid white;
+}
 
 .caption a.learn-more {
 	padding: 5px 10px;
