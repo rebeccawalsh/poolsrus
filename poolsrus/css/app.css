@@ -1,5 +1,14 @@
-.body h1 {
-	font-family: 'Bree Serif', serif;
+.leftl {
+	max-height: 230px;
+	opacity: 30%;
+}
+
+.rightl {
+	max-height: 230px;
+}
+
+.homep {
+	padding-top: 20px;
 }
 
 .fullWidth {
@@ -12,6 +21,12 @@
 h1 {
 font-family: 'Michroma', sans-serif;
 font-size: 25px;
+}
+
+.blam {
+font-family: 'Michroma', sans-serif;
+font-size: 30px;
+color: #62a9af;
 }
 
 h2 {
