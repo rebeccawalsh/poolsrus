@@ -24,9 +24,15 @@ font-size:23px;
 }
 
 h4 {
-font-size: 20px;
+font-size: 17px;
+color: #62a9af;
 font-family: 'Michroma', sans-serif;
+}
 
+.sideh4 {
+	font-size: 20px;
+	color: black;
+	font-family: 'Michroma', sans-serif;
 }
 
 h5 {
@@ -82,6 +88,14 @@ background: transparent;
 	-webkit-box-shadow: 0 10px 6px -6px lightslategray;
 	   -moz-box-shadow: 0 10px 6px -6px lightslategray;
 	        box-shadow: 0 10px 6px -6px lightslategray;
+}
+
+.shrink {
+	max-height: 200px;
+}
+
+.drawers {
+	padding-left: 35px;
 }
 
 #featuredContent .back {
@@ -403,5 +417,10 @@ blockquote {
   right: -1em !important;
   background: transparent;
 }
+
+
+.top-bar ul li a {
+  background-color: transparent !important;
+} 
 
 
