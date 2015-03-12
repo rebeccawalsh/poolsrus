@@ -17,14 +17,6 @@
     <link rel="stylesheet" href="css/ihover.css" rel="stylesheet">
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/custom.js"></script>
-	
-	<!-- Gallery items -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	
-	
   </head>
   <body>
   <!--NAVIGATION BAR-->
@@ -74,105 +66,10 @@
     <section class="headimg">
       <img src="img/headthing3.png">
     </section>
-	
-	
-    <!--CONTENT/Images--> 
-	<main class="cd-main-content">
-		<div class="cd-tab-filter-wrapper">
-			<div class="cd-tab-filter">
-				<ul class="cd-filters">
-					<li class="placeholder"> 
-						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
-					</li> 
-					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Residential</a></li>
-					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Commercial</a></li>
-					<li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">Spas</a></li>
-					<li class="filter" data-filter=".color-4"><a href="#0" data-type="color-4">Decks</a></li>
-					<li class="filter" data-filter=".color-5"><a href="#0" data-type="color-5">Finishes</a></li>
-					<li class="filter" data-filter=".color-6"><a href="#0" data-type="color-6">Fire Features</a></li>
-					<li class="filter" data-filter=".color-7"><a href="#0" data-type="color-7">Water Features</a></li>
-					<li class="filter" data-filter=".color-8"><a href="#0" data-type="color-8">Special Features</a></li>
-											<!-- same image -->						<!-- same link -->		
-				</ul> <!-- cd-filters -->
-			</div> <!-- cd-tab-filter -->
-		</div> <!-- cd-tab-filter-wrapper -->
-
-		<section class="cd-gallery">
-			<ul>
-				<!--Residential -->
-				<li class="mix color-1">
-				<div class="grid-block fade">
-					<div class="caption">
-						<h3>Clayton Residence</h3>
-						<p>This is a test to see how muc i can actually fit into this small area</p>
-						<p><a href="clayton.html" class="learn-more">View Project</a></p>
-					</div>
-					<img src="img/Gallery/Residential/01.jpg" />	
-				</div>
-				</li>
-				
-				<li class="mix color-1"><img src="img/Gallery/Residential/02.jpg"></li>
-				<li class="mix color-1"><img src="img/Gallery/Residential/03.jpg"></li>
-				<li class="mix color-1"><img src="img/Gallery/Residential/04.jpg"></li>
-				
-				
-				
-				
-				<!--Commercial -->
-				<li class="mix color-2"><img src="img/Gallery/Commercial/01.jpg"></li>
-				<li class="mix color-2"><img src="img/Gallery/Commercial/02.jpg"></li>
-				
-				<!--Spas -->
-				<li class="mix color-3"><img src="img/Gallery/Spas/01.jpg"></li>
-				<li class="mix color-3"><img src="img/Gallery/Spas/02.jpg"></li>
-		
-				
-				<!-- Decks -->
-				<li class="mix color-4"><img src="img/Gallery/Decks/01.jpg"></li>
-				<li class="mix color-4"><img src="img/Gallery/Decks/02.jpg"></li>
-				<li class="mix color-4"><img src="img/Gallery/Decks/03.jpg"></li>
-				<li class="mix color-4"><img src="img/Gallery/Decks/04.jpg"></li>
-				
-				<!-- Finishes -->
-				<li class="mix color-5"><img src="img/Gallery/Finishes/01.jpg"></li>
-				
-				
-				<!-- Fire Features -->
-				<li class="mix color-6"><img src="img/Gallery/Fire/01.jpg"></li>
-				<li class="mix color-6"><img src="img/Gallery/Fire/02.jpg"></li>
-				<li class="mix color-6"><img src="img/Gallery/Fire/03.jpg"></li>
-				<li class="mix color-6"><img src="img/Gallery/Fire/04.jpg"></li>
-				
-				<!-- Water Features -->
-				<li class="mix color-7"><img src="img/Gallery/Water/01.jpg"></li>
-				<li class="mix color-7"><img src="img/Gallery/Water/02.jpg"></li>
-				<li class="mix color-7"><img src="img/Gallery/Water/04.jpg"></li>
-				<li class="mix color-7"><img src="img/Gallery/Water/05.jpg"></li>
-				
-				
-				<!-- Special Features -->
-				<li class="mix color-8"><img src="img/Gallery/Special/02.jpg"></li>
-				<li class="mix color-8"><img src="img/Gallery/Special/03.jpg"></li>
-				<li class="mix color-8"><img src="img/Gallery/Special/04.jpg"></li>
-				<li class="mix color-8"><img src="img/Gallery/Special/06.jpg"></li>
-				
-				
-				<li class="gap"></li>
-				<li class="gap"></li>
-			</ul>
-			<div class="cd-fail-message">No results found</div>
-		</section> <!-- cd-gallery -->
-
-		
-
-		
-	</main> <!-- cd-main-content -->
-
-      <br />
+    <!--CONTENT-->
       
-      
-      <br />
+        
+
       <!--FOOTER-->
       <div class="container full-width" style="background: #333333;">
         <div class="row">
@@ -183,7 +80,7 @@
           <div class="large-2 columns">
             <h5 class="dark">Helpful Links</h5>
             <ul class="no-bullet darklist">
-              <li><a href="#">Testimonials</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
               <li><a href="services.html">Services</a></li>
               <li><a href="gallery.hrml">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
@@ -241,44 +138,5 @@
           variable_height: false,
         });
     </script>
-	
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="js/jquery.mixitup.min.js"></script>
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
-	
-	
-	
-	<!---------- JS ---------->
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$('.standard').hover(
-		function(){
-			$(this).find('.caption').show();
-		},
-		function(){
-			$(this).find('.caption').hide();
-		}
-	);
-	$('.fade').hover(
-		function(){
-			$(this).find('.caption').fadeIn(250);
-		},
-		function(){
-			$(this).find('.caption').fadeOut(250);
-		}
-	);
-	$('.slide').hover(
-		function(){
-			$(this).find('.caption').slideDown(250);
-		},
-		function(){
-			$(this).find('.caption').slideUp(250);
-		}
-	);
-});
-</script>
-	
   </body>
-  
 </html>
