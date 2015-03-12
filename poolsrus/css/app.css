@@ -26,6 +26,7 @@ font-size:23px;
 h4 {
 font-size: 20px;
 font-family: 'Michroma', sans-serif;
+
 }
 
 h5 {
@@ -49,6 +50,11 @@ font-size:13px;}
 
 blockquote p {
 	font-family: 'Handlee', cursive;
+}
+
+ul li  a {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .top-bar-section ul li > a { 
@@ -158,6 +164,10 @@ background: transparent;
 
 .footer {
 	max-width: 1000px;
+}
+
+.container ul li a {
+	color: #62a9af !important;
 }
 
 .wrap {
