@@ -676,11 +676,14 @@ xcustom form elements
 	height: 100%;
 }
 .caption h3, .caption p {
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
 	color: #fff;
 	margin: 20px;
 }
 
 .caption p {
+	font-family: "Open Sans", sans-serif;
 	text-align: center;
 	font-size: .75em;
 	line-height: 1.5em;
