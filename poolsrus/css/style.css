@@ -677,7 +677,7 @@ xcustom form elements
 }
 .caption h3, .caption p {
 	font-family: "Open Sans", sans-serif;
-	text-align: center;
+	text-align: text-top;
 	color: #fff;
 	margin: 20px;
 }
